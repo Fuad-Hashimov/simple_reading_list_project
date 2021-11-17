@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.book {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(66, 22, 107);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.book h1 {
+  color: aliceblue;
+  font-size: 5vw;
+}
+.book p {
+  color: aliceblue;
+  font-size: 3vw;
+}
+
+.book-list {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(121, 37, 206);
+}
+.book-list ul {
+  padding: 0;
+
+  list-style: none;
+}
+.book-list ul > li {
+  
+  padding: 20px;
+  background-color: rgb(66, 22, 107);
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.books{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.books button {
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: rgb(58, 20, 94) !important;
+  color: aliceblue !important;
+}
